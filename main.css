@@ -1,0 +1,83 @@
+/* General body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8f3;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #1b5e20;
+    padding: 10px;
+}
+
+/* Main content styling */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* List item styling */
+li {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+/* Main heading styling */
+h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #ffffff;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+/* Image styling */
+img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Link styling */
+a {
+    color: #1565c0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0d47a1;
+}
