@@ -1,1 +1,1 @@
-# All Coursera Assignment will appera here
+# All Coursera Assignment will appear here
