@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="fp_style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+        <p>Use your mouse or keyboard to explore the images.</p>
+    </header>
+
+    <main>
+
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+
+        <div class="gallery">
+
+            <img
+                src="photo1.png"
+                alt="this is my 1st photo"
+                onmouseover="upDate(this)"
+                onmouseleave="undo()"
+                onfocus="upDate(this)"
+                onblur="undo()">
+
+            <img
+                src="photo2.png"
+                alt="this is my 2nd photo"
+                onmouseover="upDate(this)"
+                onmouseleave="undo()"
+                onfocus="upDate(this)"
+                onblur="undo()">
+
+            <img
+                src="photo3.png"
+                alt="this is my 3rd photo"
+                onmouseover="upDate(this)"
+                onmouseleave="undo()"
+                onfocus="upDate(this)"
+                onblur="undo()">
+
+            <img
+                src="photo4.png"
+                alt="this my photo no 4"
+                onmouseover="upDate(this)"
+                onmouseleave="undo()"
+                onfocus="upDate(this)"
+                onblur="undo()">
+
+            <img
+                src="photo5.png"
+                alt="this is my 5th photo"
+                onmouseover="upDate(this)"
+                onmouseleave="undo()"
+                onfocus="upDate(this)"
+                onblur="undo()">
+
+            <img
+                src="photo6.png"
+                alt="this is my 6th photo"
+                onmouseover="upDate(this)"
+                onmouseleave="undo()"
+                onfocus="upDate(this)"
+                onblur="undo()">
+
+        </div>
+
+    </main>
+
+    <script src="fp_script.js"></script>
+
+</body>
+</html>
