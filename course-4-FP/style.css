@@ -69,42 +69,51 @@ footer {
     color: #ffffff;
 }
 
-/* Tablet view */
+
+/* Tablet View - 772px */
+
 @media screen and (min-width: 772px) {
+
     main {
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     figure {
-        border-radius: 50%;
-        overflow: hidden;
+        width: 45%;
     }
 
-    figure:last-child {
-        grid-column: span 2;
+    figure img {
+        max-height: 30vh;
     }
 }
 
-/* Large screen view */
-@media screen and (min-width: 992px) {
+
+/* Large Screen View - 998px */
+
+@media screen and (min-width: 998px) {
+
     figure {
-        border-radius: 0;
-    }
-
-    figure:nth-child(3n) {
-        grid-column: span 2;
+        width: 30%;
     }
 }
 
-/* Reduced motion */
+
+/* Reduced Motion */
+
 @media (prefers-reduced-motion: reduce) {
+
     html {
         scroll-behavior: auto;
     }
 }
 
-/* Dark color scheme */
+
+/* Dark Color Scheme */
+
 @media (prefers-color-scheme: dark) {
+
     body {
         background-color: #121212;
         color: #ffffff;
